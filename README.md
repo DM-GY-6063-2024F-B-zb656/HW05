@@ -8,7 +8,7 @@ i think i fixed this just by changing the seconds counter from using round() to 
 
 then i turned it into the proper reset text counter i wanted, since i was just using the seperated out counters as a test to keep track of each function
 
-now i need to figure out how to make it so every time the page is clicked it resets the counter, because right now the function mouseClicked () { setup();} is not resetting it... will it if i move all the variables to be global variables?
+now i need to figure out how to make it so every time the page is clicked it resets the counter, because right now the function mouseClicked () { setup();} is not resetting it... will it if i move all the variables to be global variables? no it will not. so far still not seeing a way to reset the counter
 
 
 By putting different sketch.js and index.html files in directories we can more easily switch between multiple experiments.

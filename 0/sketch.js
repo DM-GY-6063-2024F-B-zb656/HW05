@@ -25,6 +25,6 @@ function draw() {
   text(`it has been ${nf(h)} hours, ${nf(mc)} minutes, and ${nf(sc)} seconds since you clicked this page`, width/2, height/2);
 }
 
-function mouseClicked() {
-  setup();
-}
+// function mouseClicked() {
+//   setup();
+// }
