@@ -1,11 +1,6 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(255);
 }
-
-// function mouseClicked() {
-//   setup();
-// }
 
 function draw() {
   background(255);
@@ -28,4 +23,8 @@ function draw() {
 
   //display clock counter reset text
   text(`it has been ${nf(h)} hours, ${nf(mc)} minutes, and ${nf(sc)} seconds since you clicked this page`, width/2, height/2);
+}
+
+function mouseClicked() {
+  setup();
 }
