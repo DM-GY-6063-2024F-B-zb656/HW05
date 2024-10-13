@@ -1,5 +1,8 @@
 # p5.js multi sketch template
 
+thoughts: got a seconds counter, minutes counter technically works but how to get it with just digits left of the decimal? round() doesnt really work because as soon as the seconds goes over half, it switches to the next minute
+
+
 By putting different sketch.js and index.html files in directories we can more easily switch between multiple experiments.
 
 ---
