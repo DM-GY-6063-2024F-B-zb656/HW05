@@ -4,9 +4,28 @@ function setup() {
 
 function draw() {
   background(255);
-  fill(0);
-  rect(width / 2.5, height / 4, width / 20, height / 2);
-  rect(width - width / 2.5 - width / 20, height / 4, width / 20, height / 2);
-  rect(width / 2.5 + width / 20, height / 4 - width / 20, width - 2 * width / 2.5 - 2 * width / 20, width / 20);
-  rect(width / 2.5 + width / 20, height / 4 + height / 2, width - 2 * width / 2.5 - 2 * width / 20, width / 20);
+  
+  //style text
+  textAlign(LEFT, CENTER);
+  textSize(20);
+  textFont('Courier New');
+
+  //seconds count
+  let s = millis() / 1000;
+  let sc = round(s % 60)
+
+  //minutes count
+  let m = s / 60;
+  //let mc = round(m % 60);
+
+  //display seconds text
+  text(`seconds: ${nf(sc,2)}`, width/2, height/2);
+
+  //display minutes text
+  text(`minutes: ${nf(m,2)}`, width/2, height/2 + 100);
+
+
+
+  //display text EVENTUALLY
+  //text(`[hour function]:[minute function]:[seconds function]` width/2, height/2);
 }
