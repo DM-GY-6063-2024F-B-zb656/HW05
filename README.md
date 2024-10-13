@@ -2,6 +2,14 @@
 
 thoughts: got a seconds counter, minutes counter technically works but how to get it with just digits left of the decimal? round() doesnt really work because as soon as the seconds goes over half, it switches to the next minute
 
+i tried out .toFixed and that did not work since it still rounds, and then Math.trunc() worked. but now i need to fix the problem of the seconds counter showing 60, when really the second it hits 60 it should reset to 0. 
+
+i think i fixed this just by changing the seconds counter from using round() to using the Math.trunc() and then I made the hour counter but since I'm not using a day counter, it doesn't need to be able to flip over after 24 hours.
+
+then i turned it into the proper reset text counter i wanted, since i was just using the seperated out counters as a test to keep track of each function
+
+now i need to figure out how to make it so every time the page is clicked it resets the counter, because right now the function mouseClicked () { setup();} is not resetting it... will it if i move all the variables to be global variables?
+
 
 By putting different sketch.js and index.html files in directories we can more easily switch between multiple experiments.
 

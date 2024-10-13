@@ -1,12 +1,17 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  background(255);
 }
+
+// function mouseClicked() {
+//   setup();
+// }
 
 function draw() {
   background(255);
-  
+
   //style text
-  textAlign(LEFT, CENTER);
+  textAlign(CENTER);
   textSize(20);
   textFont('Courier New');
 
@@ -19,19 +24,8 @@ function draw() {
   let mc = Math.trunc(m % 60);
 
   //hours count
-  let h = (m / 24);
-  let hc = Math.trunc(h % 24)
+  let h = Math.trunc(m / 60);
 
-  //display seconds text
-  text(`seconds: ${nf(sc,2)}`, width/2, height/2);
-
-  //display minutes text
-  text(`minutes: ${nf(mc,2)}`, width/2, height/2 + 100);
-
-  //display hours text
-  text(`hours: ${nf(hc,2)}`, width/2, height/2 + 200);
-
-
-  //display text EVENTUALLY
-  //text(`[hour function]:[minute function]:[seconds function]` width/2, height/2);
+  //display clock counter reset text
+  text(`it has been ${nf(h)} hours, ${nf(mc)} minutes, and ${nf(sc)} seconds since you clicked this page`, width/2, height/2);
 }
