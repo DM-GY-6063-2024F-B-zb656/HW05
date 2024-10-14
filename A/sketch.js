@@ -22,7 +22,7 @@ function draw() {
   let h = Math.trunc(m / 60);
 
   //display clock counter reset text
-  text(`it has been ${nf(h)} hours, ${nf(mc)} minutes, and ${nf(sc)} seconds since you clicked this page`, width/2, height/2);
+  text(`it has been ${nf(h)} hours, ${nf(mc)} minutes, and ${nf(sc)} seconds since you refreshed this page`, width/2, height/2);
 }
 
 // function mouseClicked() {
