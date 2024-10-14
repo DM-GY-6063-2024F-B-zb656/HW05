@@ -10,6 +10,8 @@ then i turned it into the proper reset text counter i wanted, since i was just u
 
 now i need to figure out how to make it so every time the page is clicked it resets the counter, because right now the function mouseClicked () { setup();} is not resetting it... will it if i move all the variables to be global variables? no it will not. so far still not seeing a way to reset the counter
 
+then i tried to figure out if there was a function that would just reload the entire webpage but i couldnt seem to find that either..
+
 
 By putting different sketch.js and index.html files in directories we can more easily switch between multiple experiments.
 
