@@ -16,6 +16,8 @@ then i tried to figure out if there was a function that would just reload the en
 for the grapefruit drawing I did painting to enlarge and see, inserting a painting and every click would enlarge the image. took me a second to remember how to implement this, but i ended up on setting up the height/width as a global variable.
 then i changed the image to be a square painting
 
+then it took some fiddling and remembering but i managed to get it so every time the image fills the screen, a click resets it.
+
 
 By putting different sketch.js and index.html files in directories we can more easily switch between multiple experiments.
 
