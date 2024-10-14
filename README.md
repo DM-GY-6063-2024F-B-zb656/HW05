@@ -13,6 +13,10 @@ now i need to figure out how to make it so every time the page is clicked it res
 then i tried to figure out if there was a function that would just reload the entire webpage but i couldnt seem to find that either..
 
 
+for the grapefruit drawing I did painting to enlarge and see, inserting a painting and every click would enlarge the image. took me a second to remember how to implement this, but i ended up on setting up the height/width as a global variable.
+then i changed the image to be a square painting
+
+
 By putting different sketch.js and index.html files in directories we can more easily switch between multiple experiments.
 
 ---
