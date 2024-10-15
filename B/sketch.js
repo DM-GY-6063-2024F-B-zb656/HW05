@@ -1,6 +1,6 @@
 let img;
 function preload() {
-  img = loadImage("/images/whitelily.jpg");
+  img = loadImage("../images/whitelily.jpg");
 }
 
 let w;
