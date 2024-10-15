@@ -1,6 +1,6 @@
 let img;
 function preload() {
-  img = loadImage("../images/whitelily.jpg");
+  img = loadImage("https://raw.githubusercontent.com/DM-GY-6063-2024F-B-zb656/HW05/refs/heads/main/images/whitelily.jpg");
 }
 
 let w;
